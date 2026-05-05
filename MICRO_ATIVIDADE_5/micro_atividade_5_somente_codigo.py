@@ -1,20 +1,20 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[12]:
 
 
 import pandas as pd
 
 
-# In[3]:
+# In[13]:
 
 
 # Define max_rows para 9999
 pd.set_option('display.max_rows', 9999)
 
 
-# In[4]:
+# In[14]:
 
 
 # Criar uma variável
@@ -29,7 +29,7 @@ dados_csv = pd.read_csv(
 )
 
 
-# In[5]:
+# In[15]:
 
 
 print("=== INFORMAÇÕES GERAIS DO DATASET ===")
@@ -38,7 +38,7 @@ print(dados_csv.describe())
 print("="*65 + "\n")
 
 
-# In[6]:
+# In[16]:
 
 
 # Informações completas do dataset
@@ -48,13 +48,14 @@ print(dados_csv.info())
 print("="*65)
 
 
-# In[7]:
+# In[19]:
 
 
 # TOTAL DE LINHAS
 print("\n" + "="*65)
 print("1. TOTAL DE LINHAS:")
-print(f"O dataset possui {len(dados_csv)} linhas (registros)")
+print(f"Total de linhas de dados: {len(dados_csv) - 1}")
+print(f"Total de linhas no arquivo: {len(dados_csv)}")
 print("="*65)
 
 
