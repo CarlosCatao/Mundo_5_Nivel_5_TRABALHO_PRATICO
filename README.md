@@ -1,5 +1,7 @@
 ## Limpeza e Tratamento de Dados com Python e Pandas
-[![GitHub](https://img.shields.io/badge/GitHub-Repositório-black?logo=github)](https://github.com/CarlosCatao/Mundo_5_Nivel_5_TRABALHO_PRATICO)
+
+[Acessar o Repositório no GitHub](https://github.com/CarlosCatao/Mundo_5_Nivel_5_TRABALHO_PRATICO)
+
 ## 💻 Autor
 
 Carlos Altomare Catão
